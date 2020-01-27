@@ -31,6 +31,7 @@ While we're at it, let's make sure the camera interface is enabled in the Raspbe
 
 ```
 sudo apt-get install python3-pip
+sudo apt-get install python3-venv
 ```
 
 ### Step 1b. Download this repository and create virtual environment
