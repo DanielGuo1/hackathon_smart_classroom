@@ -100,9 +100,9 @@ This downloads about 400MB worth of installation files, so it will take a while.
 tensorboard 2.0.2 has requirement setuptools>=41.0.0, but you'll have setuptools 40.8.0 which is incompatible.**
 Solution:
 
-...
+```
 sudo pip3 install setuptools --upgrade
-...
+```
 
 That was easy! On to the next step.
 
