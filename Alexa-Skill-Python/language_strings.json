@@ -1,7 +1,8 @@
 {
 	"en": {
 		"SKILL_NAME": "Smart Classroom",
-		"GET_FACT_MESSAGE": "{} students attending",
+		"GET_FACT_MESSAGE": "{} of ",
+		"GET_FACT_MESSAGE2": "{} students attending in room 125",
 		"HELP_MESSAGE": "You can say tell me a room fact, or, you can say exit... What can I help you with?",
 		"HELP_REPROMPT": "What can I help you with?",
 		"FALLBACK_MESSAGE": "The Room Facts skill can't help you with that.  It can help you discover facts about rooms if you say tell me a room fact. What can I help you with?",
@@ -156,7 +157,8 @@
 	},
 	"de-DE": {
 		"SKILL_NAME": "Smart Classroom",
-		"GET_FACT_MESSAGE": "{} Studierende anwesend.",
+		"GET_FACT_MESSAGE": "{} von ",
+		"GET_FACT_MESSAGE2": "{} Studierenden im Raum 125 anwesend.",
 		"HELP_MESSAGE": "Du kannst sagen, „Nenne mir einen Fakt über den Raum“, oder du kannst „Beenden“ sagen... Wie kann ich dir helfen?",
 		"HELP_REPROMPT": "Wie kann ich dir helfen?",
 		"FALLBACK_MESSAGE": "Die Raumfakten Skill kann dir dabei nicht helfen. Sie kann dir Fakten über den Raum erzählen, wenn du dannach fragst.",
