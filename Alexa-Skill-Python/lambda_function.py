@@ -41,23 +41,24 @@ class GetNewFactHandler(AbstractRequestHandler):
         room_value = None
         if is_request_type("IntentRequest")(handler_input):
             logger.info("In is_request_type IntentRequest")
-            room_value = handler_input.request_envelope.request.intent.slots.Raum.value
+            #room_value = handler_input.request_envelope.request.intent.slots.Raum.value
             logger.info("In room_value aus slots")
         if room_value is None:
             room_value = str(125) #Raum 125
-        #url="http://35.193.77.108/"+room_value
-        url="http://numbersapi.com/"+room_value
+        url="http://35.193.77.108/"+room_value
+        url2="http://35.234.96.179/api/rooms/"+room_value
         response=requests.get(url)
+        response2 = requests.get(url2)
         if response.status_code == 200:
-            the_fact = response.text
-            speech = data[prompts.GET_FACT_MESSAGE].format(the_fact)
+            the_fact = response.text  
+            fact2 = response2.text
+            speech = data[prompts.GET_FACT_MESSAGE].format(the_fact) + data[prompts.GET_FACT_MESSAGE2].format(fact2)
         else:
             speech = data[prompts.ERROR_MESSAGE]
-#krei_end
         handler_input.response_builder.speak(speech).set_card(
             SimpleCard(data[prompts.SKILL_NAME], speech))
         return handler_input.response_builder.response
-
+#krei_end
 
 class HelpIntentHandler(AbstractRequestHandler):
     """Handler for Help Intent."""
