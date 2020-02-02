@@ -1,8 +1,6 @@
 # Smart Classroom 
+[![Smart Classroom Video](mss-video.jpg)](https://www.youtube.com/watch?v=LWIsHo5xbl8)
 
-
-<src>(https://github.com/giaru/IoT/mysimpleshow_Classroom_Echo.mp4)</src>
-
-## Introduction
-
+## Project Documentation
+[Read the documentation of our Projekt in our Wiki](../../wiki)
 
