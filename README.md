@@ -7,4 +7,4 @@ Aufgabe: Zählen von anwesenden Studierenden im Raum
 Verwendete Technologien: Raspberry Pi 4, OpenCV, TensorFlow Lite, Amazon Alexa Skills Kit, Amazon Echo Show 8
 
 ## Projektdokumentation
-[Die ausführliche Beschreibung unseres Projekts befindet sich im Wiki](../../wiki)
+Die ausführliche Beschreibung unseres Projekts befindet sich im [Wiki](../../wiki)
