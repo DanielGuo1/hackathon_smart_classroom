@@ -10,10 +10,9 @@ Das Video ist die Beschreibung des Use-Cases für unser Projekt "Smart Classroom
 
 Auf das Bild oben oder [hier klicken](https://www.youtube.com/watch?v=c-ecEOi3SvM) um das Video auf Youtube anzuschauen.
 
-Dieses Video zeigt ein Rollenspiel für eine mögliche Nutzung der Smart Classroom Anwendung
+Dieses Video zeigt ein Rollenspiel für eine mögliche Nutzung der Smart Classroom Anwendung.
 
 Aufgabe: Zählen von anwesenden Studierenden im Raum
-
 Verwendete Technologien: Raspberry Pi 4, OpenCV, TensorFlow Lite, Amazon Alexa Skills Kit, Amazon Echo Show 8
 
 ## Projektdokumentation
