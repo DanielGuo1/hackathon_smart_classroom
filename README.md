@@ -1,7 +1,7 @@
 # Smart Classroom 
 [![Smart Classroom Video](/Bilder/1.%20Einleitung/mss-video.jpg)](https://www.youtube.com/watch?v=LWIsHo5xbl8 "Video auf Youtube abspielen")
 
-On the picture above or [click here] (https://www.youtube.com/watch?v=LWIsHo5xbl8) to watch the video on Youtube (only german).
+On the picture above or [click here](https://www.youtube.com/watch?v=LWIsHo5xbl8) to watch the video on Youtube (only german).
 
 The video is the description of the use case for our "Smart Classroom" project for the IoT Hackathon at the [Reutlingen University] (https://inf.reutlingen-university.de) in January 2020.
 
