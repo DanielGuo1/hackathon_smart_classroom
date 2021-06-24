@@ -20,7 +20,7 @@ This video shows a possible use of the Smart Classroom application.
 Task: Count the students present in the room
 Technologies used: Raspberry Pi 4, OpenCV, TensorFlow Lite, Spring Boot, Amazon Alexa Skills Kit, Amazon Echo Show 8
 
-## Procekt Documentation
+## Project Documentation
 The detailed description of our project can be found in [Wiki](../../wiki).
 
 [Click here!](../../wiki)
